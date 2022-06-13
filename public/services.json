@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "name":"ENGINE DIAGNOSTIC",
+        "price":300,
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa vel suscipit pariatur laboriosam incidunt omnis inventore similique in ut iusto.",
+        "img":"https://i.ibb.co/3BRHb0X/service1.webp"
+    },
+    {
+        "id":2,
+        "name":"WHEEL ALIGNMENT",
+        "price":100,
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa vel suscipit pariatur laboriosam incidunt omnis inventore similique in ut iusto.",
+        "img":"https://i.ibb.co/Sw4JVfv/service2.webp"
+    },
+    {
+        "id":3,
+        "name":"OIL CHANGING",
+        "price":150,
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa vel suscipit pariatur laboriosam incidunt omnis inventore similique in ut iusto.",
+        "img":"https://i.ibb.co/pXS0mmQ/service3.webp"
+    },
+    {
+        "id":4,
+        "name":"BREAK REPAIRING",
+        "price":180,
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa vel suscipit pariatur laboriosam incidunt omnis inventore similique in ut iusto.",
+        "img":"https://i.ibb.co/3Nr3d4Y/service4.webp"
+    },
+    {
+        "id":5,
+        "name":"WASH AND GLASSING",
+        "price":100,
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa vel suscipit pariatur laboriosam incidunt omnis inventore similique in ut iusto.",
+        "img":"https://i.ibb.co/nw1rL3P/service5.webp"
+    },
+    {
+        "id":6,
+        "name":"COMPLETE ANALYSIS",
+        "price":300,
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa vel suscipit pariatur laboriosam incidunt omnis inventore similique in ut iusto.",
+        "img":"https://i.ibb.co/YZsZKmd/service6.webp"
+    }
+]
