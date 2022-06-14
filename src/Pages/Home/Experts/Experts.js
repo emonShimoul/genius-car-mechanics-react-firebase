@@ -3,27 +3,27 @@ import Expert from '../Expert/Expert';
 
 const experts = [
     {
-        img: "https://i.ibb.co/Z2bjr65/mechanic-1.jpg",
+        img: "https://i.ibb.co/Kq2JvpF/mechanic-1.jpg",
         name: 'Andrew Smith',
         expertize: '-Engine Expert-'
     },
     {
-        img: "https://i.ibb.co/25FZm6w/mechanic-2.jpg",
+        img: "https://i.ibb.co/Hn0Nv61/mechanic-2.jpg",
         name: 'John Anderson',
         expertize: '-Polish Expert-'
     },
     {
-        img: "https://i.ibb.co/fQMr5cz/mechanic-3.jpg",
+        img: "https://i.ibb.co/25zTbtd/mechanic-3.jpg",
         name: 'Zakaria Smith',
         expertize: '-Coloring Expert-'
     },
     {
-        img: "https://i.ibb.co/2KSv1XH/mechanic-4.jpg",
+        img: "https://i.ibb.co/xg14YHs/mechanic-4.jpg",
         name: 'Andrew Washington',
         expertize: '-Driving Expert-'
     },
     {
-        img: "https://i.ibb.co/XWCZp2K/mechanic-5.jpg",
+        img: "https://i.ibb.co/Pry4h9n/mechanic-5.jpg",
         name: 'Tom Hardle',
         expertize: '-Repairing Expert-'
     },
@@ -32,7 +32,7 @@ const experts = [
 const Experts = () => {
     return (
         <div className='container'>
-            <h2 className='text-primary'>Our Experts</h2>
+            <h2 className='text-primary mt-5'>Our Experts</h2>
             <div className='row'>
                 {
                     experts.map(expert => <Expert
