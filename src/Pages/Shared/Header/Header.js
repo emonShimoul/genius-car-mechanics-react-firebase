@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 
 const Header = () => {
-    const {users, logOut} = useAuth();
+    const {user, logOut} = useAuth();
     return (
         <>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
@@ -15,12 +15,12 @@ const Header = () => {
                 <Nav.Link as={Link} to="/home#home">Home</Nav.Link>
                 <Nav.Link as={Link} to="/home#services">Services</Nav.Link>
                 <Nav.Link as={Link} to="/home#experts">Experts</Nav.Link>
-                {users?.email ?
-                    <Button variant="light">Logout</Button>:
+                {user?.email ?
+                    <Button className='me-3' variant="light" onClick={logOut}>Logout</Button>:
                     <Nav.Link as={Link} to="/login">Login</Nav.Link>
                     }
                 <Navbar.Text>
-                    Signed in as: <a href="#login">{users?.displayName}</a>
+                    Signed in as: <span style={{color: 'white'}}>{user?.displayName}</span>
                 </Navbar.Text>
                 </Navbar.Collapse>
                 </Container>

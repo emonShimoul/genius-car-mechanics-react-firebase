@@ -4,7 +4,7 @@ import initializeAuthentication from "../Pages/Login/Firebase/firebase.init";
 
 initializeAuthentication();
 const useFirebase = () => {
-    const [users, setUsers] = useState({});
+    const [user, setUser] = useState({});
 
     const auth = getAuth();
 
@@ -12,7 +12,7 @@ const useFirebase = () => {
         const googleProvider = new GoogleAuthProvider();
         signInWithPopup(auth, googleProvider)
         .then(result => {
-            setUsers(result.user);
+            setUser(result.user);
         });
     }
 
@@ -20,10 +20,10 @@ const useFirebase = () => {
     useEffect(() => {
         const unSubscribed = onAuthStateChanged(auth, user => {
             if(user){
-                setUsers(user);
+                setUser(user);
             }
             else{
-                setUsers({});
+                setUser({});
             }
         });
         return () => unSubscribed;
@@ -35,7 +35,7 @@ const useFirebase = () => {
     }
 
     return {
-        users,
+        user,
         signInUsingGoogle,
         logOut
     };
